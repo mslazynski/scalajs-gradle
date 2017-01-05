@@ -1,9 +1,10 @@
 group 'com.github.gtache'
-version '0.2.0'
+
+String scalaJSVersion = '0.6.13'
+version scalaJSVersion
 
 String scalaVersion = '2.11'
 String subVersion = '8'
-String scalaJSVersion = '0.6.9'
 
 ext.isReleaseVersion = !version.endsWith("SNAPSHOT")
 
